@@ -1,0 +1,23 @@
+.product-categories{
+    margin: 50px 0 100px 0;
+}
+
+.product-category {
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: 0.2s ease;
+    background-color: black;
+}
+
+.product-category img {
+    opacity: 0.5;
+}
+
+.product-category:hover {
+    transform: scale(1.02);
+}
+
+.product-category-text {
+    color: white;
+}

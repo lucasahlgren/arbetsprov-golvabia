@@ -1,0 +1,21 @@
+.catalog-inspiration {
+    margin: 100px 0;
+    background-color: black;
+}
+
+.catalog-container, .inspiration-container {
+    position: relative;
+    text-align: center;
+    height: 400px;
+}
+
+.catalog-container img, .inspiration-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.catalog-group, .inspiration-group {
+    color: white;
+}

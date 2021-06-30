@@ -1,0 +1,31 @@
+.popular-products{
+    margin: 50px 0;
+}
+
+.products-slider {
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: -1rem;
+}
+
+.left-arrow-button, .right-arrow-button {
+    z-index: 10;
+}
+
+.left-arrow-icon {
+    height: auto;
+    width: 30px;
+    transform: rotate(180deg);
+    stroke: white;
+    background-color: #355571;
+    opacity: 0.8;
+}
+
+.right-arrow-icon {
+    height: auto;
+    width: 30px;
+    stroke: white;
+    background-color: #355571;
+    opacity: 0.8;
+}

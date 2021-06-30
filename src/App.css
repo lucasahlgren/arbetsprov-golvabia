@@ -1,38 +1,105 @@
+@font-face {
+  font-family: 'Bliss Pro';
+  src: url('./assets/fonts/bliss-pro/BlissPro.ttf');
+}
+
+@font-face {
+  font-family: 'Bliss Pro Light';
+  src: url('./assets/fonts/bliss-pro/BlissPro-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Big Caslon';
+  src: url('./assets/fonts/big-caslon-regular/big-caslon-regular.otf');
+}
+
+/* App classes */
+
 .App {
   text-align: center;
+  font-family: 'Bliss Pro', 'sans-serif';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Font classes */
+
+.font-serif {
+  font-family: 'Big Caslon', 'Times', 'serif';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-light {
+  font-family: 'Bliss Pro Light', 'serif';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-serif {
+  text-decoration: underline;
+  text-decoration-color: lightskyblue;
+  text-underline-position: under;
+}
+
+/* Utility classes */
+
+.center-container {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
+/* Custom styles */
+
+.golvabia-primary {
+  background-color: #243A4D;
+}
+
+.golvabia-nav-link:hover {
+  color: lightskyblue;
+}
+
+.golvabia-nav-link .icon:hover {
+  stroke: lightskyblue;
+}
+
+.button1 {
+  background-color: transparent;
+  padding: 0.8rem 3.5rem;
+  border: solid 2px;
+  border-color: white;
   color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.button1:hover {
+  background-color: #1a2834;
+  color: white;
+  transition: background-color 0.3s;
+  border-color: #1a2834;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button2 {
+  background-color: transparent;
+  padding: 0.3rem 3.0rem;
+  border: solid 2px;
+  border-color: white;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button2:hover {
+  background-color: #1a2834;
+  color: white;
+  transition: background-color 0.3s;
+  border-color: #1a2834;
 }

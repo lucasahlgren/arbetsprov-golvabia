@@ -1,0 +1,102 @@
+/* Product styling */
+
+.product-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.product-image-container .product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product a, .product a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.product {
+    transition: 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+.product-text-campaign {
+    background-color: #D68F56;
+    width: auto;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.product-text-new {
+    background-color: #81A5C4;
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin: top left;
+    width: auto;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.product-price {
+    color: #6CA5C8;
+}
+
+.product-options {
+    font-size: 1.2rem;
+}
+
+.product-heart-icon {
+    width: 30px;
+    height: 30px;
+    stroke: black;
+}
+
+.product-heart-icon:hover {
+    fill: red;
+    stroke: red;
+}
+
+/* Grand selection styling */
+
+.grand-selection {
+    transform-origin: bottom right;
+    width: 110px;
+    height: 110px;
+    background-color: #3a1a2e;
+    z-index: 1;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.grand-selection-title {
+    font-size: 1.3rem;
+}
+
+.grand-selection img {
+    width: 55%;
+}
+
+.grand-selection-underscore {
+    border-top: 2px solid;
+    width: 23%;
+    color: white;
+}

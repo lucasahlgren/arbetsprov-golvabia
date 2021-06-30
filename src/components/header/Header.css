@@ -1,0 +1,20 @@
+.header-logo {
+    width: 130px;
+}
+
+.header-icon {
+    height: 22px;
+    width: auto;
+    stroke: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 0.95rem;
+}

@@ -1,0 +1,22 @@
+.guide{
+    margin: 100px 0;
+}
+
+.guide-container {
+    background-color: black;
+    position: relative;
+    text-align: center;
+    height: 400px;
+}
+
+.guide-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.guide-group {
+    color: white;
+}

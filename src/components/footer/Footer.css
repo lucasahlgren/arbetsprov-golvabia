@@ -1,0 +1,43 @@
+footer {
+    min-height: 450px;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-social-media {
+        margin-left: 65px;
+    }
+}
+
+.footer-products, .footer-contact, .footer-adress {
+    color: white;
+}
+
+.footer-products a, .footer-contact a, .footer-adress a {
+    color: white;
+    margin: 8px 0px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer-adress p {
+    margin: 8px 0px;
+    text-align: left;
+}
+
+.footer-icon {
+    height: 25px;
+    stroke: white;
+}
+
+.footer-icon:hover {
+    stroke: lightskyblue;
+    cursor: pointer;
+}
+
+.footer-column-title {
+    font-weight: bold;
+}
